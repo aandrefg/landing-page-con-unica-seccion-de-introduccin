@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(127, 51, 199);
+    background-image:url(../landing-page-con-unica-seccion-de-introduccin/images/bg-desktop.svg);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+.logo{
+    
+    position:relative;
+
+}
+.ilustration{
+    grid-column: 1/2;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.social_icons {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
